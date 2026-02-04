@@ -14,6 +14,8 @@ body {
   line-height: 1.3;
   padding-block: 2rem;
   font-family: 'system-ui', 'Arial', 'Times New Roman', 'Helvetica';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
