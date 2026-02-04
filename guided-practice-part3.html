@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guided Practice Part 3</title>
+  <style>
+    body {
+      font-size: 16px;
+      line-height: 1.3;
+      padding-block: 2rem;
+      font-family: 'system-ui', 'Arial', 'Times New Roman', 'Helvetica', 'sans-serif';
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    ol li {
+      color: red;
+      width: fit-content;
+      margin-inline: auto;
+    }
+
+    .black {
+      color: black;
+    }
+
+    .note {
+      font-size: 20px;
+    }
+
+    #id-selector-demo {
+      color: green;
+    }
+
+    [value='4'] {
+      color: blue;
+    }
+
+    .wrapper {
+      width: min(900px, 100% - (2rem * 2));
+      margin-inline: auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class='wrapper'>
+      <h1>CSS Selectors</h1>
+      <h2 class='note'>Applying CSS to Different Parts of HTML</h2>
+      <ol>
+        <li>
+          <p>Item 1</p>
+        </li>
+        <li class='black'>
+          <p>Item 2</p>
+        </li>
+        <li id='id-selector-demo'>
+          <p>Item 3</p>
+        </li>
+        <li value='4'>
+          <p>Item 4</p>
+        </li>
+        <li class='black'>
+          <p>Item 5</p>
+        </li>
+      </ol>
+    </div>
+  </main>
+</body>
+
+</html>
